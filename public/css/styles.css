@@ -1,5 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 50%;
+}
+
+#barra-busqueda {
+    width: 50%;
+}
+
+#boton-menu {
+    width: 40px;
+    background-color: #0044AA;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#boton-menu:hover{
+    background-color: #0022AA;
+    cursor: pointer;
+}
+
+#banner {
+    width: 100%;
+    display: block;
+}
+
+section > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+article {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+}
+
+h3 + article {
+    margin-top: 0;
+}
+
+footer {
+    padding: 0 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+footer > article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form, .register-form {
+    margin: 5%;
+}
+
+.login-form > input, .login-form > button, .register-form > input, .register-form > button {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.login-form > button, .register-form > .register-submit {
+    color: #fff;
+    background-color: #0044AA;
+}
+
+.login-form > button:hover, .register-form > .register-submit:hover{
+    background-color: #002244;
+}
+
+.register-reset {
+    color: #fff;
+    background-color: #AA0044;
+}
+
+.register-reset:hover {
+    background-color: #CC1155;
 }
 
 .link a {
@@ -86,4 +183,8 @@ p {
 
 .display-none {
     display: none;
+}
+
+.text-align-center {
+    text-align: center;
 }
